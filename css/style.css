@@ -97,21 +97,21 @@ p {
 .top-cloud {
     position: absolute;
     width: 20rem;
-    right: 12rem;
+    right: 10rem;
     top:10rem
 }
 
 .bottom-cloud {
     position: absolute;
     width: 20rem;
-    left : 12rem;
+    left : 10rem;
     bottom: 45rem
 }
 
 .mountain {
     width: 100%;
     position:relative;
-    margin-top:20rem;
+    margin-top:25rem;
 }
 
 .btn {
