@@ -48,6 +48,9 @@ h3 {
 p {
     color: #153131;
     line-height: 2;
+    font-family: 'Kalam', cursive;
+    font-family: 'Acme', sans-serif;
+    font-family: 'Tinos', serif;
 }
 
 .top-container {
@@ -75,11 +78,11 @@ p {
     border-radius: 50%;
     width: 30%;
     float: left;
-    margin-right: 3rem;
+    margin-right: 2rem;
 }
 
 .skill-row2 {
-    border-radius: 50%;
+    border-radius: 20%;
     width: 30%;
     float: right;
     margin-left: 3rem;
@@ -96,22 +99,22 @@ p {
 
 .top-cloud {
     position: absolute;
-    width: 20rem;
+    width: 16rem;
     right: 10rem;
-    top:10rem
+    top: 10rem
 }
 
 .bottom-cloud {
     position: absolute;
-    width: 20rem;
-    left : 10rem;
+    width: 16rem;
+    left: 8rem;
     bottom: 45rem
 }
 
 .mountain {
     width: 100%;
-    position:relative;
-    margin-top:25rem;
+    position: relative;
+    margin-top: 25rem;
 }
 
 .btn {
@@ -140,6 +143,22 @@ p {
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
 }
+
+#scroll-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
 
 hr {
     border: dotted #EAF6F6 0.6rem;
@@ -178,31 +197,34 @@ a {
     html {
         font-size: 62.5%;
     }
+
     .top-cloud {
         display: none;
     }
-    
+
     .bottom-cloud {
         display: none;
     }
-    
+
 }
 
 @media (max-width:450px) {
     html {
         font-size: 35%;
     }
+
     .top-cloud {
         display: none;
     }
-    
+
     .bottom-cloud {
         display: none;
     }
+
     .mountain {
         width: 100%;
-        position:relative;
-        margin-top:29rem;
+        position: relative;
+        margin-top: 29rem;
     }
 
 }
