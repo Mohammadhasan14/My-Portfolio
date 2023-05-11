@@ -2,6 +2,7 @@ body {
     margin: 0rem;
     text-align: center;
     font-family: 'Merriweather', serif;
+    overflow-x: hiddeen;
 }
 
 #navbar {
